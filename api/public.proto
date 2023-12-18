@@ -1225,7 +1225,7 @@ message Alert {
   System.Reference system = 3;
 
   // Cause is the same as the [cause enum in the GTFS realtime
-  // specification](https://gtfs.org/fr/realtime/feed-entities/service-alerts/#cause),
+  // specification](https://gtfs.org/realtime/feed-entities/service-alerts/#cause)
   // except `UNKNOWN_CAUSE` has value 0 instead of 1 to satisfy proto3 requirements.
   enum Cause {
     UNKNOWN_CAUSE = 0;
@@ -1245,7 +1245,7 @@ message Alert {
   Cause cause = 4;
 
   // Effect is the same as the [effect enum in the GTFS realtime
-  // specification](https://gtfs.org/fr/realtime/feed-entities/service-alerts/#effect),
+  // specification](https://gtfs.org/realtime/feed-entities/service-alerts/#effect)
   // except `UNKNOWN_EFFECT` has value 0 instead of 1 to satisfy proto3 requirements.
   enum Effect {
     UNKNOWN_EFFECT = 0;
